@@ -21,7 +21,7 @@ public class Factura {
 
     public float aplicarIVA(){
 
-        final float IVA = (float) 1.21;
+        final float IVA = 1.21f;
         return this.totalFactura() * IVA;
     }
 }
