@@ -26,8 +26,9 @@ class ProductoTest {
 
     @Test
     void precioTotal() {
-        float precioTotalEsperado = this.precio * this.cantidad;
-        assertEquals(precioTotalEsperado, producto.precioTotal());
+        float expected = this.precio * this.cantidad;
+        float actual = producto.precioTotal();
+        assertEquals(expected, actual);
     }
 
    }

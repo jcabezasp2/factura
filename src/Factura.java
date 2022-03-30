@@ -5,7 +5,7 @@ public class Factura {
     Vector<Producto> productos = new Vector<>();
 
     public void meterProductos(Producto p){
-
+        productos.add(p);
     }
 
     public float totalFactura(){
